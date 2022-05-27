@@ -342,12 +342,16 @@ table th {
     justify-content: space-evenly;
 }
 
-.card {
+.symptom .card {
     width: 100%;
     text-align: left;
     padding: 1%;
     float: left;
     margin: 1%
+}
+
+.symptom .card p {
+    text-align: left;
 }
 
 .card_img {
@@ -359,6 +363,10 @@ table th {
     border-radius: 50%;
     float: right;
     object-fit: cover;
+}
+
+.card_title {
+    margin-top: -30px;
 }
 
 .card_title p {
